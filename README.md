@@ -1,3 +1,3 @@
 # qrates-remake
 
-Remaking www.qrates.com home page, work in progress.
+Remaking www.qrates.com/why as practice, work in progress.
