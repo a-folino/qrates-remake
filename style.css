@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --first-color: #FFF804;
+    --second-color: #E280FF;
+    --third-color: #81836C;
+    --primary-font: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px auto auto;
+}
+
+body {
+    padding: 0 20px;
+}
+
+p, h1, h2, h3, h4, a, button {
+    font-family: var(--primary-font);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/******** HEADER ********/
+
+header {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.header-logo {
+    margin-right: 40px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+li:nth-child(3) {
+    border-bottom: 2px solid black;
+}
+
+.header-icons a {
+    margin: 0 12px;
+    width: 14px;
+}
+
+.header-right {
+    margin-left: auto;
+}
+
+.make-your-own {
+    background: black;
+    color: white;
+    border-radius: 50px 50px;
+    padding: 15px 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/*********** MAIN ************/
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 100px;
+}
+
+.first-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-main .why {
+    display: flex;
+    justify-content: center;
+    width: 14%;
+    border: 2px solid black;
+    background: white;
+    padding: 7px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.first-main h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: -2px;
+}
+
+.first-main h2 {
+    font-size: 1.8em;
+}
+
+.second-main img {
+    transform: rotate(5deg);
+    border: 2px solid black;
+    width: 90%;
+}
